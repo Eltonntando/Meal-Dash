@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link rel="shortcut icon" type="x-icon" href="Images/T's Meal-Dash Delivery Logo.png">
+		<link rel="shortcut icon" type="x-icon" href="Images/T's Meal-Dash Delivery Logo.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,61 +21,61 @@
 
 
 <style>
-        .share-button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 14px;
-            cursor: pointer;
-            display: inline-block;
-            margin-bottom: 10px;
-            margin-left: 10%;
-            margin-top: 12px;
-        }
+		.share-button {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 10px;
+			border-radius: 14px;
+			cursor: pointer;
+			display: inline-block;
+			margin-bottom: 10px;
+			margin-left: 10%;
+			margin-top: 12px;
+		}
 
-        .social-platforms {
-            display: none;
-        }
+		.social-platforms {
+			display: none;
+		}
 
-        .social-platforms.show {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 10px;
-            padding-bottom: 10px;
-            margin-right: 5px;
-        }
+		.social-platforms.show {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10px;
+			padding-bottom: 10px;
+			margin-right: 5px;
+		}
 
-        .social-platforms a {
-            margin: 8px;
-            color: white;
-            font-size: 30px;
-        }
-    </style>
-    <script>
-        function showSocialPlatforms() {
-            const socialPlatforms = document.querySelector('.social-platforms');
-            socialPlatforms.classList.toggle('show');
-        }
+		.social-platforms a {
+			margin: 8px;
+			color: white;
+			font-size: 30px;
+		}
+	</style>
+	<script>
+		function showSocialPlatforms() {
+			const socialPlatforms = document.querySelector('.social-platforms');
+			socialPlatforms.classList.toggle('show');
+		}
 
-        function shareLink(platform) {
-            var linkToShare = "https://avatar-pluga.netlify.app/index.html"; // Replace with your link to share
-            var socialUrl;
+		function shareLink(platform) {
+			var linkToShare = "https://avatar-pluga.netlify.app/index.html"; // Replace with your link to share
+			var socialUrl;
 
-            if (platform === 'facebook') {
-                socialUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(linkToShare);
-            } else if (platform === 'instagram') {
-                socialUrl = 'https://www.instagram.com/share?url=' + encodeURIComponent(linkToShare);
-            } else if (platform === 'email') {
-                socialUrl = 'mailto:?body=' + encodeURIComponent(linkToShare);
-            } else if (platform === 'whatsapp') {
-                socialUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(linkToShare);
-            }
+			if (platform === 'facebook') {
+				socialUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'instagram') {
+				socialUrl = 'https://www.instagram.com/share?url=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'email') {
+				socialUrl = 'mailto:?body=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'whatsapp') {
+				socialUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(linkToShare);
+			}
 
-            window.open(socialUrl, '_blank');
-        }
-    </script>
+			window.open(socialUrl, '_blank');
+		}
+	</script>
 
 
 
@@ -107,6 +107,9 @@
                         <a href="selling.html">Meals</a>
                     </li>
                     <li class="header-nav-tab">
+                        <a href="signup.html" >Become a Vendor</a>
+                    </li >
+                    <li class="header-nav-tab">
                         <a href="contact.html" >Contacts Us</a>
                     </li > 
 
@@ -125,16 +128,20 @@
                 <div class="content-header">
                     <h1 style="background-color: transparent;">Hi there, for all your local leker meals, we got you!</h1>
                     <p style="background-color: transparent; margin-left: 10px;">Order your favourite local meal & get it delivered at your door.
-                        </p>
+                    	</p>
 
                 <div>
                 <img src="Images/Product (1).png" alt="">
                 </div>
 
-            
+			
 
 <div style="background-color: red;" class="share-button" onclick="window.location.href='vendor.html';"><i class="fas fa-order"></i>Order Now</div>
-<div class="share-button" onclick="showSocialPlatforms()"><i class="fas fa-share"></i>Share</div>
+
+<div style="background-color: orange; margin-left: 6px;" class="share-button" onclick="window.location.href='signup.html';"><i class="fas fa-order"></i>Become a Vedor</div>
+
+<div style="margin-left: 6px" class="share-button" onclick="showSocialPlatforms()"><i class="fas fa-share"></i>Share</div>
+
 
 <!-- Insert site/plug sharing links -->
     <div class="social-platforms">
@@ -224,9 +231,9 @@
                   </div>
     </div>
 <div class="gallaries" style="text-align: center; margin-top: 12px">
-<img src="Images/Pluga Logo3.png" style="text-align: center; width: 15px; height: auto;">
+<img src="Images/T's Meal-Dash Delivery Logo" style="text-align: center; width: 15px; height: auto;">
 </div>
-    <footer>
+	<footer>
 <div class="outer-footer">
   <div class="widget links">
                     <ul class="style2">
